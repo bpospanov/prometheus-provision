@@ -26,7 +26,7 @@ Restart=on-failure
 ExecStart=/usr/bin/node_exporter
 
 [Install]
-WantedBy=nulti-user.target
+WantedBy=multi-user.target
 EOF
 
 systemctl daemon-reload
