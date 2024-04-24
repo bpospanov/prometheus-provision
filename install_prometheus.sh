@@ -52,7 +52,7 @@ EOF
 
 systemctl daemon-reload
 systemctl start prometheus
-systemctl enable ptometheus
+systemctl enable prometheus
 systemctl status prometheus --no-page
 prometheus --version
 
